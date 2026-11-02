@@ -1,0 +1,5 @@
+{
+  "dependencies": ["."],
+  "graphs": {"support": "./src/support_rag/studio.py:graph"},
+  "env": ".env"
+}
