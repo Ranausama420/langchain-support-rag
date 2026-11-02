@@ -1,0 +1,14 @@
+[
+  {"id":"auth-expiry","question":"How do I fix AUTH-104?","abstain":false,"expected_terms":["expired","sign in","NTP"]},
+  {"id":"password","question":"How do I reset my password?","abstain":false,"expected_terms":["Forgot password","20 minutes"]},
+  {"id":"python","question":"What Python version is supported?","abstain":false,"expected_terms":["3.11","3.12"]},
+  {"id":"timeout","question":"How do I change the request timeout?","abstain":false,"expected_terms":["NIMBUSDESK_TIMEOUT_SECONDS","30 seconds"]},
+  {"id":"proxy","question":"How do I configure proxy settings?","abstain":false,"expected_terms":["HTTPS_PROXY","NO_PROXY"]},
+  {"id":"connection","question":"How do I fix NET-201 connection refused?","abstain":false,"expected_terms":["NIMBUSDESK_SERVER_URL","firewall"]},
+  {"id":"rate-limit","question":"How do I handle RATE-429?","abstain":false,"expected_terms":["Retry-After","jitter"]},
+  {"id":"backup","question":"What is the backup retention?","abstain":false,"expected_terms":["14 days","attachments"]},
+  {"id":"unknown-code","question":"How do I fix AUTH-999?","abstain":true},
+  {"id":"release","question":"When will the next version launch?","abstain":true},
+  {"id":"unrelated","question":"What is the capital of France?","abstain":true},
+  {"id":"pricing","question":"How much is the annual enterprise subscription?","abstain":true}
+]
